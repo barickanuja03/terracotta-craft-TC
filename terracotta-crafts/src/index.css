@@ -1,0 +1,18 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #1b4e9b transparent;
+  scroll-behavior: smooth;
+}
+@layer components {
+  .main-container {
+    @apply w-full lg:max-w-[1150px] 2xl:max-w-[1536px] mx-auto px-4 md:px-2 xl:px-4 2xl:px-4;
+  }
+  .heading{
+    @apply text-xl md:text-2xl lg:text-[2rem] 2xl:text-[2.5rem] mt-5 lg:leading-[3.15rem] 2xl:leading-[3.75rem] capitalize tracking-wide font-bold text-gray-800;
+  }
+  .button{
+    @apply   px-5 py-3 rounded-3xl capitalize bg-blue-800 text-white my-5;
+  }
+}
