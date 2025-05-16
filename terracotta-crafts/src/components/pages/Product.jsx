@@ -1,9 +1,10 @@
 import React from 'react'
+import Allproduct from '../Ui/Allproduct'
 
 const Product = () => {
   return (
     <div>
-      <h1>Product</h1>
+      <Allproduct />
     </div>
   )
 }

@@ -22,8 +22,8 @@ function Header() {
           <div>
            <ul className='text-white text-xl flex flex-row justify-center items-center gap-7'>
             <li><NavLink to='/' className="hover:border-b-2 border-white pb-1 duration-300">Home</NavLink></li>
-            <li><NavLink to='/' className="hover:border-b-2 border-white pb-1 duration-300">Products</NavLink></li>
-            <li><NavLink to='/' className="hover:border-b-2 border-white pb-1 duration-300">About</NavLink></li>
+            <li><NavLink to='/product' className="hover:border-b-2 border-white pb-1 duration-300">Products</NavLink></li>
+            <li><NavLink to='/about' className="hover:border-b-2 border-white pb-1 duration-300">About</NavLink></li>
            </ul>
           </div>
           <div>
@@ -43,7 +43,7 @@ function Header() {
                   <IoPersonRemove />
                 </NavLink>
               </li>
-              <li className='bg-blue-700 text-xl text-white px-4 py-1 rounded-xl'>
+              <li className='bg-blue-700 text-xl text-white px-4 py-1 rounded-xl hover:bg-blue-600 duration-300 ease-in-out'>
                 <NavLink to="/contact">Contact Us</NavLink>
               </li>
             </ul>

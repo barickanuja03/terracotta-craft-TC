@@ -77,7 +77,7 @@ function Footer() {
       </div>  
       <hr className='h-2 w-full my-5'/>
       <div>
-        &copy;2024,All rights reserve
+        &copy;2025,All rights reserve
       </div>
     </div>
     </>

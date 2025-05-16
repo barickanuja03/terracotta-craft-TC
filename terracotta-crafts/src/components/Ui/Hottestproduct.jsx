@@ -9,7 +9,7 @@ const Hottestproduct = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll:4,
+    slidesToScroll:1,
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -18,7 +18,7 @@ const Hottestproduct = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
           autoplay: true,
@@ -29,7 +29,7 @@ const Hottestproduct = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
           autoplay: true,
           autoplaySpeed: 3000,
